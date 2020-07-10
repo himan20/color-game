@@ -1,0 +1,5 @@
+{
+  "events": {
+    "crash": "fuser -n tcp -k 5000"
+  }
+}
