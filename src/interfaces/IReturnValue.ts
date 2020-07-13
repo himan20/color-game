@@ -1,5 +1,5 @@
-export interface IReturnValue {
-  data?: any | null;
+export interface IReturnValue<T> {
+  data?:  T;
   message?: string;
   isValid?: boolean;
 }
